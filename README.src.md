@@ -1,3 +1,9 @@
+[:var_set('', """
+# Compile command
+aoikdyndocdsl -s README.src.md -n aoikdyndocdsl.ext.all::nto -g README.md
+""")
+]\
+[:HDLR('heading', 'heading')]\
 # AoikArgUtil-Python
 Python **argparse** library's utility library.
 
@@ -8,22 +14,10 @@ Tested working with:
 - Windows
 
 ## Table of Contents
-- [Setup](#setup)
-  - [Setup via pip](#setup-via-pip)
-  - [Setup via git](#setup-via-git)
-- [Usage](#usage)
-  - [Ensure argument is nonempty](#ensure-argument-is-nonempty)
-  - [Ensure argument is nonempty after strip](#ensure-argument-is-nonempty-after-strip)
-  - [Ensure argument is boolean](#ensure-argument-is-boolean)
-  - [Ensure argument is int](#ensure-argument-is-int)
-  - [Ensure argument is float](#ensure-argument-is-float)
-  - [Ensure one of arguments is given](#ensure-one-of-arguments-is-given)
-  - [Ensure all of arguments are given](#ensure-all-of-arguments-are-given)
-  - [Ensure argument dependency](#ensure-argument-dependency)
+[:toc(beg='next', indent=-1)]
 
 ## Setup
-- [Setup via pip](#setup-via-pip)
-- [Setup via git](#setup-via-git)
+[:tod()]
 
 ### Setup via pip
 Run:
@@ -42,14 +36,7 @@ python setup.py install
 ```
 
 ## Usage
-- [Ensure argument is nonempty](#ensure-argument-is-nonempty)
-- [Ensure argument is nonempty after strip](#ensure-argument-is-nonempty-after-strip)
-- [Ensure argument is boolean](#ensure-argument-is-boolean)
-- [Ensure argument is int](#ensure-argument-is-int)
-- [Ensure argument is float](#ensure-argument-is-float)
-- [Ensure one of arguments is given](#ensure-one-of-arguments-is-given)
-- [Ensure all of arguments are given](#ensure-all-of-arguments-are-given)
-- [Ensure argument dependency](#ensure-argument-dependency)
+[:tod()]
 
 ### Ensure argument is nonempty
 Code:
